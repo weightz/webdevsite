@@ -1,0 +1,153 @@
+/*Christian Peterson
+Last edited on 12/10/21*/
+html{
+    background-image:url(../images/img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-decoration-color: whitesmoke;
+}
+.navbar {
+    display: flex;
+    border: dashed 3px rgb(3, 0, 161);
+    background-color: rgb(41, 39, 39);
+    flex-direction: row;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    left: 0px;
+}
+
+.navbar li{
+    text-align: center;
+    padding: 5px 5px;
+    height: 4em;
+    flex-grow: 3;
+    list-style: none;
+    font-display: middle;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    position: static;
+    font-size: 3rem;
+}
+
+.navbar li a:hover {
+    font-size: 3.5rem;
+}
+  
+.heading {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+.grid-container {
+    height:auto;
+    width:auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.grid-item {
+    border-radius: 30px;
+}
+
+.chart{
+    width: 100%;
+    border-radius:30px;
+}
+
+.caption{
+    background-color: white;
+    text-align: center;
+    font-size:20px;
+    color: black;
+}
+
+.main{
+    background-color: whitesmoke;
+    color: black;
+    padding: 3px;
+    margin-right: 25em;
+    margin-left: 25em;
+    float: inline-start;
+    border-radius: 18%;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    margin-right: 0.75em;
+    margin-left: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position:static;
+}
+.footer content {
+    justify-content: center !important;
+
+}
+
+.copyright{
+    color: #6c757d;
+    font-style: italic;
+    text-align: left;
+    flex:0 0 auto;
+    width: 100%;
+    right: 300px;
+    flex: 0 0 auto;
+}
+
+.social-icon {
+    justify-content: right;
+    background-color:black;
+    bottom: 60px;
+    position:static;
+    height: 2em;
+    width: 2em;
+    border-radius: 25%;
+    display: inline;
+}
+  
+.social-icon:hover {
+    opacity: 90%;
+    height: 2.5em;
+    width: 2.5em;
+    transition: all ease-in-out 150ms; 
+}
+ 
+.Facebook:hover{
+    background-color: #1778F2;
+}
+  
+.Instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    filter: var(--bs-blue);
+}
+  
+.Linkedin:hover{
+    background-color: #0072b1;
+}
+  
+.Google:hover {
+    background-color: white;
+}
+  
+.phone-number{
+    text-align: right;
+    bottom:60px;
+    right: 1rem;
+    position: static;
+    color: black;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.phone-number:hover {
+    color: black;
+    font-size:20px;
+}

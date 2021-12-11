@@ -1,0 +1,137 @@
+/*Christian Peterson
+Last edited on 12/10/21*/
+/*custom Background*/
+.background{
+    background-image: url(../images/img/bg.jpg);
+}
+
+.bodyb {
+    background-color: black;
+}
+
+.bodya{
+    background-color:white;
+}
+
+.list ul{
+    margin-left: 0em;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 0px;
+}
+
+.list li{
+    margin-left: 2em;
+    top: 0px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.video{
+    width: fit-content+160px;
+    height:fit-content+90px;
+}
+
+.photo{
+    margin-left: 10rem;
+    margin-right:10rem;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.blog {
+    background-color:black;
+    color: white;
+}
+
+.link{
+    color: rgb(56, 186, 247);
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    text-decoration:none;
+}
+.byu {
+    color: rgb(31, 28, 153);
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.byu:hover {
+    color: rgb(95, 0, 0);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.grid-item {
+    border-radius: 30px;
+}
+
+.images {
+    width:618px;
+    height:360px;
+}
+
+/*Social Media icon Formatting*/
+.social-icon {
+    align-items: right;
+    background-color:black;
+    bottom: 60px;
+    position:static;
+    height: 2em;
+    width: 2em;
+    border-radius: 25%;
+    display: inline;
+}
+  
+.social-icon:hover {
+    opacity: 90%;
+    height: 2.5em;
+    width: 2.5em;
+    transition: all ease-in-out 150ms; 
+}
+ 
+.Facebook:hover{
+    background-color: #1778F2;
+}
+  
+.Instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    filter: var(--bs-blue);
+}
+  
+.Linkedin:hover{
+    background-color: #0072b1;
+}
+  
+.Google:hover {
+    background-color: white;
+}
+  
+.phone-number{
+    text-align: right;
+    bottom:60px;
+    right: 1rem;
+    position: static;
+    color: black;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.phone-number:hover {
+    color: black;
+    font-size:20px;
+}
+
